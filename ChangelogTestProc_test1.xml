@@ -1,8 +1,8 @@
-<Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="DVELOPSOFTWARE\mnunez" versionDate="2025-07-17T22:01:39.0000000Z" lastUpdate="2025-07-17T21:24:28.0000000Z" checksum="47a4a5e22e08347edbb4e184f54074a2" fullyQualifiedName="ChangelogTestProc" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="b69af51d-6f95-48cb-90e7-fc66c58d0444" name="ChangelogTestProc" type="84a12160-f59b-4ad7-a683-ea4481ac23e9" description="Changelog Test Proc">
+<Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="DVELOPSOFTWARE\mnunez" versionDate="2025-07-17T22:01:39.0000000Z" lastUpdate="2025-07-17T22:00:32.0000000Z" checksum="5e73ac93af7fd728d1316a7efc8b8090" fullyQualifiedName="ChangelogTestProc" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="b69af51d-6f95-48cb-90e7-fc66c58d0444" name="ChangelogTestProc" type="84a12160-f59b-4ad7-a683-ea4481ac23e9" description="Changelog Test Proc">
 <Part type="528d1c06-a9c2-420d-bd35-21dca83f12ff">
 <Source><![CDATA[// this proc is changed
 // Less
-Log.Info("Another commit")
+Log.Info("CHANGE 1")
 msg(&Numeric.ToString())
 msg("test")
 // Comments
@@ -10,7 +10,7 @@ msg(&VarChar, status)
 &LongVarChar = &VarChar
 &Number = 32
 &Number = &Number * 2
-Log.Info("Another commit")
+Log.Info("CHANGE 2")
 // More
 msg("test")
 // One more comment
