@@ -1,0 +1,60 @@
+<Object parentGuid="afa47377-41d5-4ae8-9755-6f53150aa361" user="DVELOPSOFTWARE\mnunez" versionDate="2025-07-17T22:01:39.0000000Z" lastUpdate="2025-07-17T21:24:28.0000000Z" checksum="47a4a5e22e08347edbb4e184f54074a2" fullyQualifiedName="ChangelogTestProc" moduleGuid="afa47377-41d5-4ae8-9755-6f53150aa361" guid="b69af51d-6f95-48cb-90e7-fc66c58d0444" name="ChangelogTestProc" type="84a12160-f59b-4ad7-a683-ea4481ac23e9" description="Changelog Test Proc">
+<Part type="528d1c06-a9c2-420d-bd35-21dca83f12ff">
+<Source><![CDATA[// this proc is changed
+// Less
+Log.Info("Another commit")
+msg(&Numeric.ToString())
+msg("test")
+// Comments
+msg(&VarChar, status)
+&LongVarChar = &VarChar
+&Number = 32
+&Number = &Number * 2
+Log.Info("Another commit")
+// More
+msg("test")
+// One more comment
+]]></Source>
+<Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+</Part>
+<Part type="c414ed00-8cc4-4f44-8820-4baf93547173">
+<Properties />
+</Part>
+<Part type="9b0a32a3-de6d-4be1-a4dd-1b85d3741534">
+<Source><![CDATA[parm(in: &VarChar);
+]]></Source>
+<Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+</Part>
+<Part type="763f0d8b-d8ac-4db4-8dd4-de8979f2b5b9">
+<Source><![CDATA[]]></Source>
+<Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+</Part>
+<Part type="e4c4ade7-53f0-4a56-bdfd-843735b66f47">
+<Variable Name="VarChar">
+<Documentation />
+<Properties><Property><Name>Name</Name><Value>VarChar</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>False</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:VarChar</Value></Property></Properties>
+</Variable>
+<Variable Name="Numeric">
+<Documentation />
+<Properties><Property><Name>Name</Name><Value>Numeric</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:Numeric</Value></Property></Properties>
+</Variable>
+<Variable Name="LongVarChar">
+<Documentation />
+<Properties><Property><Name>Name</Name><Value>LongVarChar</Value></Property><Property><Name>idIsAutoDefinedVariable</Name><Value>False</Value></Property><Property><Name>ATTCUSTOMTYPE</Name><Value>bas:LongVarChar</Value></Property></Properties>
+</Variable>
+<Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+</Part>
+<Part type="ad3ca970-19d0-44e1-a7b7-db05556e820c">
+<Help>
+<HelpItem>
+<Language>88313f43-5eb2-0000-0028-e8d9f5bf9588-English</Language>
+<Content />
+</HelpItem>
+</Help>
+<Properties><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+</Part>
+<Part type="babf62c5-0111-49e9-a1c3-cc004d90900a">
+<Properties />
+</Part>
+<Properties><Property><Name>Name</Name><Value>ChangelogTestProc</Value></Property><Property><Name>IsDefault</Name><Value>False</Value></Property></Properties>
+</Object>
